@@ -1,0 +1,38 @@
+public class RayWork {
+
+	public static void main(String[] args) {
+
+		int[] count = new int[] { 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 };
+
+		report(count);
+		dividePI(count);
+		System.out.println();
+		report(count);
+		
+		
+		int[] count1 = new int[] {0, 2 ,4 ,6 ,8 ,10};
+		
+		
+		
+		
+	}
+
+	public static void report(int[] array1) {
+
+		for (int i = 0; i < array1.length; i++) {
+
+			System.out.print(array1[i] + " ");
+
+		}
+	}
+	
+	public static void dividePI (int[] array1) {
+		
+		for (int i=0; i < array1.length; i++) {
+			array1[i]= (int)(array1[i] / Math.PI);
+			
+		}
+	}
+	
+	
+}
